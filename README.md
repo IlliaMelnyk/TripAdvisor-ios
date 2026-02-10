@@ -1,29 +1,22 @@
-# README #
+AI Trip Planner
+A native iOS application designed for planning multi-day trips. The app leverages Google Gemini API to generate personalized travel itineraries and Unsplash API for destination imagery.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Features
+Trip Management: Create, edit, and organize trips. The app automatically splits date ranges into individual daily plans.
 
-### What is this repository for? ###
+AI Suggestions: Generate travel tips based on location and specific interests (Nature, History, Food) using Google Gemini.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Daily Planner: Schedule specific activities for each day and mark them as completed.
 
-### How do I get set up? ###
+Interactive Map: Visual representation of planned and visited locations using MapKit with filtering capabilities.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Statistics: Visual insights into travel history using Swift Charts (total trips, visited places, category breakdown).
 
-### Contribution guidelines ###
+Tech Stack
+Language: Swift
 
-* Writing tests
-* Code review
-* Other guidelines
+UI Framework: SwiftUI
 
-### Who do I talk to? ###
+APIs: Google Gemini API, Unsplash API
 
-* Repo owner or admin
-* Other community or team contact
+Core Frameworks: MapKit, Swift Charts, CoreData / SwiftData
